@@ -8,8 +8,8 @@ type Props ={
 }
 
 const ButtonIcon = ({text}:Props) => (
-    <div className="d-flex">
-        <Link to="/catalog">
+    <Link to="/catalog">
+        <div className="d-flex">
             <button className="btn btn-primary btn-icon">
                 <h5>
                     {text} 
@@ -18,8 +18,8 @@ const ButtonIcon = ({text}:Props) => (
             <div className="btn-icon-content">
                 <ArrowIcon />
             </div>
-        </Link>
-    </div>
+        </div>
+    </Link>
     
     
 )
