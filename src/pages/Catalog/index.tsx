@@ -12,7 +12,9 @@ export default () => (
             <ProductCard/>
             <ProductCard/>
             <ProductCard/>
-
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
         </div>
 
     </div>
