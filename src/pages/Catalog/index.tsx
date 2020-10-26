@@ -1,7 +1,13 @@
 import React from 'react';
-
+import './styles.scss'
 export default () => (
-    <div>
-        <h1>Catalog</h1>
+    <div className="catalog-container">
+        <h1 className="catalog-title">
+            Catalogo de Produtos
+        </h1>
+        <div className="catalog-products">
+            
+        </div>
+
     </div>
 )
