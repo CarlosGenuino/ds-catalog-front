@@ -1,9 +1,6 @@
 import React from 'react'
-import {ReactComponent as ProductImage} from '../../assets/images/product.svg'
+import {ReactComponent as ProductImage} from '../../../../core/assets/images/product.svg'
 import './styles.scss'
-
-
-
 
 export default () => {
     return (
