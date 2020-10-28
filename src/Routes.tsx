@@ -16,7 +16,7 @@ export default () => (
                 <Catalog/>
             </Route>
 
-            <Route path="/product/:productId">
+            <Route path="/products/:productId">
                 <ProductDetails />
             </Route>
 
