@@ -1,10 +1,10 @@
 import axios, { Method } from 'axios';
 
 type RequestParams = {
-    method: Method
+    method?: Method
     url: string,
-    data: object;
-    params: object;
+    data?: object;
+    params?: object;
 }
 const BASE_URL = 'http://localhost:8080';
 
